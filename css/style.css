@@ -55,11 +55,11 @@ button:active {
     opacity: 0.9;
 }
 
-#ios-button {
+.ios-button {
     background-color: hsl(171, 66%, 44%);
 }
 
-#mac-button {
+.mac-button {
     background-color: hsl(233, 100%, 69%);
 }
 
