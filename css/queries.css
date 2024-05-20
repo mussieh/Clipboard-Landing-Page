@@ -1,0 +1,77 @@
+/* rem and em do NOT depend on html font-size in media queries! Instead, 1rem = 1em = 16px */
+
+/**************************/
+/* BELOW 944px (Tablets) */
+/**************************/
+@media (max-width: 59em) {
+    /* 8px / 16px = 0.5 = 50% */
+    html {
+        font-size: 50%;
+    }
+}
+
+/**************************/
+/* BELOW 544px (Phones) */
+/**************************/
+@media (max-width: 34em) {
+    .section-hero {
+        border: 1px solid white;
+        background-image: url("../images/bg-header-mobile.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .hero-text-box,
+    .snippets-text-box,
+    .cta-text-box,
+    .feature-part-2,
+    .feature-part-4 {
+        max-width: 80%;
+    }
+
+    .feature-part-1 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .computer-image-container {
+        position: static;
+    }
+
+    .feature-details {
+        margin-top: 5rem;
+        row-gap: 4rem;
+    }
+
+    .feature-detail {
+        text-align: center;
+    }
+
+    .feature-part-2 {
+        margin: 20rem auto 10rem auto;
+    }
+
+    .img-devices {
+        width: 80%;
+    }
+
+    .section-featured {
+        flex-direction: column;
+        row-gap: 10rem;
+    }
+
+    .google-logo,
+    .ibm-logo,
+    .microsoft-logo,
+    .hp-logo,
+    .vector-graphics-logo {
+        scale: 80%;
+    }
+
+    .footer {
+        height: 60rem;
+        flex-direction: column;
+        justify-content: space-evenly;
+        text-align: center;
+    }
+}

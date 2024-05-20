@@ -1,0 +1,256 @@
+/**************************/
+/* HERO SECTION */
+/**************************/
+.section-hero {
+    border: 1px solid white;
+    background-image: url("../images/bg-header-desktop.png");
+    background-size: cover;
+
+    background-repeat: no-repeat;
+}
+
+.img-logo {
+    width: 12rem;
+}
+
+.hero-heading {
+    color: hsl(210, 10%, 33%);
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    font-size: 4rem;
+    font-weight: 600;
+}
+
+.hero-description {
+    margin-bottom: 3rem;
+}
+
+.hero-text-box {
+    max-width: 65rem;
+    width: 100%;
+    margin: 10rem auto 0 auto;
+    text-align: center;
+}
+
+button,
+button:link,
+button:visited {
+    margin-left: 1rem;
+    width: 25rem;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    color: rgb(221, 254, 251);
+    box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075) inset;
+    filter: brightness(110%);
+    margin-bottom: 2rem;
+    border-radius: 3rem;
+    padding: 2rem;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+button:hover,
+button:active {
+    opacity: 0.9;
+}
+
+#ios-button {
+    background-color: hsl(171, 66%, 44%);
+}
+
+#mac-button {
+    background-color: hsl(233, 100%, 69%);
+}
+
+/**************************/
+/* SNIPPETS SECTION */
+/**************************/
+.section-snippets {
+    margin-top: 10rem;
+}
+
+.snippets-text-box {
+    max-width: 65rem;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.snippets-heading {
+    color: hsl(210, 10%, 33%);
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+/**************************/
+/* FEATURES SECTION */
+/**************************/
+.computer-image-container {
+    width: 50%;
+    min-width: 30rem;
+    position: relative;
+    right: 10rem;
+}
+
+.img-computer {
+    width: 100%;
+}
+
+.feature-heading {
+    color: hsl(210, 10%, 33%);
+}
+
+.feature-part-1 {
+    margin-top: 10rem;
+    display: flex;
+}
+
+.feature-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.feature-detail {
+    width: 38rem;
+}
+
+.feature-part-2,
+.feature-part-4 {
+    max-width: 70rem;
+    text-align: center;
+}
+
+.feature-part-2 {
+    margin: 10rem auto;
+}
+
+.feature-part-2-heading,
+.feature-part-4-heading,
+.feature-part-5-heading {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: hsl(210, 10%, 33%);
+}
+
+.feature-part-3 {
+    text-align: center;
+}
+
+.feature-part-4 {
+    margin: 5rem auto;
+}
+
+.img-devices {
+    width: 60%;
+}
+
+.feature-part-5 {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10rem;
+}
+
+.feature-detail-part-5 {
+    width: 40rem;
+    text-align: center;
+    margin: 5rem auto;
+}
+
+.feature-part-5-heading {
+    font-size: 2.5rem;
+    margin-top: 2rem;
+}
+
+/**************************/
+/* FEATURED SECTION */
+/**************************/
+.section-featured {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10rem 0 10rem;
+}
+
+.google-logo,
+.ibm-logo,
+.microsoft-logo,
+.hp-logo,
+.vector-graphics-logo {
+    scale: 80%;
+}
+
+/**************************/
+/* CTA SECTION */
+/**************************/
+.section-cta {
+    padding-bottom: 10rem;
+}
+
+.cta-heading {
+    color: hsl(210, 10%, 33%);
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    font-size: 4rem;
+    font-weight: 600;
+}
+
+.cta-description {
+    margin-bottom: 3rem;
+}
+
+.cta-text-box {
+    max-width: 65rem;
+    width: 100%;
+    margin: 10rem auto 0 auto;
+    text-align: center;
+}
+
+/**************************/
+/* FOOTER */
+/**************************/
+.footer {
+    background-color: rgb(245, 246, 248);
+    height: 15rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-nav {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+    list-style: none;
+}
+
+.logo {
+    height: 6rem;
+}
+
+.footer-link:link,
+.footer-link:visited {
+    text-decoration: none;
+    font-size: 1.6rem;
+    color: hsl(210, 10%, 33%);
+    transition: all 0.3s;
+}
+
+.footer-link:hover,
+.footer-link:active {
+    color: hsl(171, 66%, 44%);
+}
+
+.social-links {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 2rem;
+}
+
+.social-icon {
+    height: 2.4rem;
+    width: 2.4rem;
+}
